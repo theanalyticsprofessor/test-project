@@ -38,6 +38,6 @@ results = results.rename(columns={0:'Album', 1:'Artist'})
 # close the connection
 connection.close()
 
-st.subheader("SQL Query Results")
+st.subheader("Chinook Albums and Artists")
 st.dataframe(results, use_container_width=True)
 
